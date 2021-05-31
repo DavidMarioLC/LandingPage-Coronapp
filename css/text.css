@@ -1,0 +1,5 @@
+.text {
+  font: var(--text1-mobile);
+  color: var(--secondary);
+  letter-spacing: 1px;
+}

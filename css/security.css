@@ -1,0 +1,20 @@
+.security {
+}
+
+.card {
+  border: 1px solid red;
+  text-align: center;
+}
+
+.card-image {
+  margin: 0;
+}
+
+.card-image,
+.card-description {
+  border: 1px solid red;
+}
+
+.card-image img {
+  max-width: 100%;
+}

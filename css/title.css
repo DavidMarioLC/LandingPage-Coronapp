@@ -1,0 +1,8 @@
+.title {
+  font: var(--headline1-mobile);
+  color: var(--black);
+}
+
+.highlight {
+  color: var(--primary);
+}

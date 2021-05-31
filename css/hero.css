@@ -1,0 +1,13 @@
+.hero {
+}
+
+.hero__content {
+  padding: 4rem 0;
+}
+
+.hero__description {
+}
+
+.hero-image img {
+  max-width: 100%;
+}
