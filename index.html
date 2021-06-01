@@ -36,9 +36,9 @@
             </div>
             <ul class="menu__list">
               <li><a href="#">inicio</a></li>
-              <li><a href="#">características</a></li>
-              <li><a href="#">apoyo</a></li>
-              <li><a href="#">contáctenos</a></li>
+              <li><a href="#feature">características</a></li>
+              <li><a href="#support">apoyo</a></li>
+              <li><a href="#contact">contáctenos</a></li>
             </ul>
           </nav>
         </div>
@@ -48,14 +48,14 @@
       <section class="hero" aria-label="Hero">
         <div class="wrapper">
           <div class="hero__content">
-            <figure class="hero-image">
+            <figure class="hero__image">
               <img
                 src="./images/hero.svg"
                 alt="Imagen principal"
                 title="Imagen principal"
               />
             </figure>
-            <div class="hero-description">
+            <div class="hero__description">
               <h1 class="title">
                 Cuida la salud de tu <span class="highlight">familia</span>
               </h1>
@@ -68,7 +68,7 @@
           </div>
         </div>
       </section>
-      <section class="security" aria-label="caracteristicas">
+      <section id="feature" class="security" aria-label="caracteristicas">
         <div class="wrapper">
           <div class="security__content">
             <div class="section-card">
@@ -118,9 +118,9 @@
                   </div>
                 </div>
                 <div class="dots">
-                  <a aria-hidden="true" class="dot" href="#slider-01"></a>
-                  <a aria-hidden="true" class="dot" href="#slider-02"></a>
-                  <a aria-hidden="true" class="dot" href="#slider-03"></a>
+                  <a role="button" class="dot" href="#slider-01">1</a>
+                  <a role="button" class="dot" href="#slider-02">2</a>
+                  <a role="button" class="dot" href="#slider-03">3</a>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@
           </div>
         </div>
       </section>
-      <section class="experts" aria-label="Habla con expertos">
+      <section id="support" class="experts" aria-label="Habla con expertos">
         <div class="wrapper">
           <div class="experts__content">
             <div class="stats">
@@ -157,6 +157,7 @@
             </div>
             <div class="features">
               <figure class="features__image">
+                <img class="icon-play" src="./images/play.png" alt="" />
                 <img src="./images/experts.svg" alt="" />
               </figure>
               <div class="features__description">
@@ -173,15 +174,17 @@
           </div>
         </div>
       </section>
-      <section class="care">
+      <section id="contact" class="care" aria-label="Cuidados">
         <div class="wrapper">
-          <h2 class="title">
-            <span class="highlight">Cuidado de la salud </span> al alcance de tu
-            mano.
-          </h2>
-          <p class="text">
-            Llevando funciones de atención médica premium a tu alcance.
-          </p>
+          <div class="care-title">
+            <h2 class="title">
+              <span class="highlight">Cuidado de la salud </span> al alcance de
+              tu mano.
+            </h2>
+            <p class="text">
+              Llevando funciones de atención médica premium a tu alcance.
+            </p>
+          </div>
           <div class="care__content">
             <div class="care__card">
               <figure class="care__card__image">
@@ -242,6 +245,6 @@
         <img src="./images/applestore.png" alt="" />
       </figure>
     </footer>
-    <script src="./js/app.js"></script>
+    <script rel="preload" as="script" src="./js/app.js"></script>
   </body>
 </html>

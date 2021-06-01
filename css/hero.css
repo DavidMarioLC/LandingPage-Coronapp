@@ -1,13 +1,43 @@
 .hero {
+  position: relative;
 }
 
 .hero__content {
   padding: 4rem 0;
 }
 
-.hero__description {
+.hero__image img {
+  max-width: 100%;
 }
 
-.hero-image img {
-  max-width: 100%;
+@media screen and (min-width: 768px) {
+  /* .hero::after {
+    content: "";
+    position: absolute;
+    height: 700px;
+    width: 300px;
+    top: -100px;
+    right: 0;
+    z-index: -5;
+    background: var(--primary);
+    border-radius: 30px 0 0 30px;
+  } */
+
+  .hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero__description {
+    order: 1;
+    flex: 1;
+    max-width: 497px;
+  }
+
+  .hero__image {
+    text-align: center;
+    order: 2;
+    flex: 1;
+  }
 }

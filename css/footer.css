@@ -10,3 +10,9 @@
 .footer figure {
   margin: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+  }
+}

@@ -8,3 +8,12 @@
 .highlight {
   color: var(--primary);
 }
+
+@media screen and (min-width: 768px) {
+  .title {
+    font: var(--headline1-desktop);
+    color: var(--black);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}

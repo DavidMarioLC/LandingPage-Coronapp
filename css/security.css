@@ -7,12 +7,12 @@
 
 /* slider-in-card */
 .card {
-  width: 240px;
+  /* width: 240px; */
+  max-width: 360px;
   margin: auto;
   text-align: center;
   border: 2px solid var(--primary);
   border-radius: 10px;
-  padding: 1;
   position: relative;
   background: var(--white);
 }
@@ -64,13 +64,45 @@
 
 .dot {
   display: inline-block;
-  width: 5px;
-  height: 5px;
+  width: 15px;
+  height: 15px;
   background: var(--secondary);
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .dot:nth-child(2) {
   background: var(--primary);
 }
 /* slider-in-card */
+@media screen and (min-width: 768px) {
+  .security__content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 101px;
+  }
+  .section-card {
+  }
+  .card {
+    margin-left: 20px;
+  }
+  .slider {
+    overflow: hidden;
+    padding: 3rem 0;
+  }
+  .security-description {
+    flex: 1;
+    max-width: 400px;
+  }
+
+  .card-title {
+    font: var(--headline2-mobile);
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .card-info {
+    font: var(--text2-desktop);
+    color: var(--secondary);
+  }
+}

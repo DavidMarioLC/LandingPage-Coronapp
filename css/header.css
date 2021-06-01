@@ -113,3 +113,51 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+@media screen and (min-width: 768px) {
+  .header__content {
+    justify-content: space-between;
+  }
+  .logo {
+    justify-self: flex-start;
+  }
+  /* menu */
+  .hamburger {
+    display: none;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  .menu {
+    position: initial;
+    padding: 0;
+    width: initial;
+    height: initial;
+    bottom: initial;
+    right: initial;
+    margin: initial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    transition: right 0.1s ease-in-out;
+  }
+  .menu__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+  }
+  .menu__list a {
+    text-decoration: none;
+    color: var(--black);
+    font: var(--text2-mobile);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
