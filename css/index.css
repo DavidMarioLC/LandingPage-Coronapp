@@ -5,22 +5,31 @@
 @import "./header.css";
 @import "./hero.css";
 @import "./security.css";
+@import "./experts.css";
+@import "./care.css";
+@import "./footer.css";
 
 :root {
   --fontBase1: "Raleway", sans-serif;
   --fontBase2: "Rubik", sans-serif;
   --body1: bold 1rem/1rem var(--fontBase1);
   --body2: bold 1.5rem/2rem var(--fontBase1);
+  --body3: bold 1rem/1rem var(--fontBase2);
   --headline1-desktop: bold 2.75rem/3.4375rem var(--fontBase2);
   --headline1-mobile: bold 2rem/2.5rem var(--fontBase2);
   --headline2-desktop: bold 1rem/1rem var(--fontBase2);
+  --headline2-mobile: bold 1.2rem/1.3rem var(--fontBase2);
+  --headline3-mobile: bold 1.5rem/1.8rem var(--fontBase2);
   --text1-desktop: 1rem/1rem var(--fontBase2);
   --text1-mobile: 1rem/1.5rem var(--fontBase2);
+  --text2-mobile: 0.8rem/1rem var(--fontBase2);
+  --text3-mobile: 0.9rem/1rem var(--fontBase2);
   --button: 1rem/0.7rem var(--fontBase1);
   --primary: #1d957f;
   --secondary: #616161;
   --black: #0f0f0f;
   --white: #fcfdfe;
+  --white2: #fafbfd;
   --blue: #4285f4;
   --green: #2dbb54;
 }

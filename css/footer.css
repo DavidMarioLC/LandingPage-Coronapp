@@ -1,0 +1,12 @@
+.footer {
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer figure {
+  margin: 0;
+}

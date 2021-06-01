@@ -1,6 +1,8 @@
 .title {
   font: var(--headline1-mobile);
   color: var(--black);
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .highlight {
