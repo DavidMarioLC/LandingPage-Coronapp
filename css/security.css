@@ -68,6 +68,7 @@
   height: 15px;
   background: var(--secondary);
   border-radius: 15px;
+  color: transparent;
 }
 
 .dot:nth-child(2) {
